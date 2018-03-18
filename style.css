@@ -316,7 +316,7 @@ footer ul {
     padding-bottom: 10px;
 }
 
-/*--Kirjautuminen ja rekisteröityminen--*/
+/*--Kirjautuminen ja rekisterÃ¶ityminen--*/
 
 .loginBtn {
 	background-color: #4CAF50;
@@ -348,7 +348,6 @@ footer ul {
 	left: 5px;
 }
 .close {
-    position: absolute;
     right: 40px;
     top: 15;
     color: black;
