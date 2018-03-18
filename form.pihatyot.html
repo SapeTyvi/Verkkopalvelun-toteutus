@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style-forms.css" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script>
+    </script>
+    <title>Pihatyöt</title>
+</head>
+
+<body>
+    <nav>
+
+    </nav>
+    <main id="" class="form-main">
+        <div class="container-min">
+            <h1>JÄTÄ PYYNTÖ
+                <br>-
+                <br>
+                <small> SAAT PARHAAT TARJOUKSET</small>
+                <hr>
+            </h1>
+            <div class="form-container col-7">
+                    <form action="" method="post" id="formt-insert" data="Pihatyöt">
+                    <div class="form-content">
+                        <h2>
+                            <i class="fas fa-gavel"></i> Pihatyöt</h2>
+                        <div class="job-selection">
+                            <!--Työlistaus-->
+                            <select name="select-choice-0" id="job-subcategory">
+                                <option value="" disabled selected>Valitse työ</option>
+                                <option value="pihasuunnittelu">Pihasuunnittelu</option>
+                                <option value="piharakentaminen">Piharakentaminen</option>
+                                <option value="pihanhoito">Pihanhoito</option>
+                                <option value="muut_pihatyöt">Muut pihatyöt</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-content">
+                            <h2>
+                                <i class="fas fa-info-circle"></i> Työn kuvaus</h2>
+                            <textarea cols="40" rows="40" name="textarea" id="textarea" value="" placeholder="Työn kuvaus yksityiskohtaisesti" class="description" data="Kuvaus"></textarea>
+                        </div>
+                    <div class="form-content">
+                        <h2>
+                            <i class="fas fa-map-marker-alt"></i> Työn sijainti</h2>
+                        <input type="text" name="address" id="address-input" placeholder="Osoite" class="description" data="Osoite" required>
+                        <input type="text" name="city" id="city-input" placeholder="Kaupunki" required>
+                        <input type="text" name="zipcode" id="zipcode-input" placeholder="Postinumero" required>
+                        <br>
+                        <input type="text" name="text-basic" id="text-basic" placeholder="Pihan koko neliömetreinä" class="description" data="Pihan koko">
+
+                    </div>
+
+                    <div class="form-content">
+                        <h2>
+                            <i class="far fa-calendar-alt"></i> Työn ajankohta</h2>
+                        <input type="date" class="description" data="Ajankohta" id="date">
+                    </div>
+                    <div class="form-content">
+                        <h2>
+                            <i class="far fa-address-card"></i> Yhteystiedot</h2>
+                        <ul class="form-ul">
+                            <li>
+                                <label class="label-icon" for="first-name">
+                                    <i class="fa fa-user fa-fw"></i>
+                                </label>
+                                <label class="label-name" for="first-name">Etu- ja sukunimi</label>
+                                <input type="text" id="first-name" placeholder="Etu- ja sukunimi" class="description" data="Nimi" required>
+                            </li>
+                            <li>
+                                <label class="label-icon" for="first-name">
+                                    <i class="fa fa-envelope fa-fw"></i>
+                                </label>
+                                <label class="label-name" for="email">Sähköpostiosoite</label>
+                                <input type="email" id="email" placeholder="Sähköpostiosoite" class="description" data="Sähköposti" required>
+                            </li>
+                            <li>
+                                <label class="label-icon" for="first-name">
+                                    <i class="fa fa-phone fa-fw"></i>
+                                </label>
+                                <label class="label-name" for="phone">Puhelinnumero</label>
+                                <input type="tel" id="phone" placeholder="Puhelinnumero" class="description" data="Puh" required>
+                            </li>
+                            <li>
+                                    <button id="submit-button" type="submit">Lähetä</button>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+            <div class="col-3 container-form-box">
+                <div class="form-container form-box ">
+                    <h2>Tähän tulee laatikko nro 1</h2>
+                </div>
+                <div class="form-container form-box">
+                    <h2>Tähän tulee laatikko nro 2</h2>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="">
+        <div class="">
+            <div class="footer-social">
+                <span>
+                    <a href="#">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                    </a>
+                </span>
+                <span>
+                    <a href="#">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                    </a>
+                </span>
+                <span>
+                    <a href="#">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                </span>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li>
+                        <a href="#">Linkki 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Linkki 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Linkki 3</a>
+                    </li>
+                    <li>
+                        <a href="#">Linkki 4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="form-script.js"></script>
+
+</html>

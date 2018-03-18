@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style-forms.css" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="script.js"></script>
+    <title>Forms</title>
+</head>
+<body>
+    <nav>
+
+    </nav>
+    <main id="" class="form-main">
+        <div class="container-min">
+            <div class="form-container">
+                <h2>Yhteistiedot</h2>
+                <form>
+                    <ul class="form-ul">
+                        <li>                            
+                            <label class="label-icon" for="first-name"><i class="fa fa-user fa-fw"></i></label>
+                            <label class="label-name" for="first-name">Etu ja sukunimi</label>
+                            <input type="text" id="first-name" placeholder="Etu ja sukunimie">
+                        </li>                          
+                        <li>
+                            <label class="label-icon" for="first-name"><i class="fa fa-envelope fa-fw"></i></label>
+                            <label class="label-name" for="email">Sähköpostiosoite</label>
+                            <input type="email" id="email" placeholder="Sähköpostiosoite">
+                        </li>
+                        <li>
+                            <label class="label-icon" for="first-name"><i class="fa fa-phone fa-fw"></i></label>
+                            <label class="label-name" for="phone">Puhelinnumero</label>
+                            <input type="tel" id="phone" placeholder="Puhelinnumero">
+                        </li>
+                        <li class="full">
+                            <!--label class="label-icon" for="first-name"><i class="fa fa-user fa-fw"></i></label>
+                            <label class="label-name" for="message">Viesti</label-->
+                            <textarea rows="6" id="message" placeholder="Viesti"></textarea>
+                        </li>                          
+                        <li>
+                            <button type="submit">Lähetä</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="form-container form-box">
+                <h2>Tähän tulee laatikko nro 1</h2>                
+            </div>
+            <div class="form-container form-box">
+                <h2>Tähän tulee laatikko nro 2</h2>
+            </div>
+        </div>
+    </main>
+    <footer class="grid">
+        <div class="content">
+            <div class="footer-social">
+                <span><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></span>
+                <span><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></span>
+                <span><a href="#"><i class="fab fa-instagram fa-2x"></i></a></span>   
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Linkki 1</a></li>
+                    <li><a href="#">Linkki 2</a></li>
+                    <li><a href="#">Linkki 3</a></li>
+                    <li><a href="#">Linkki 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

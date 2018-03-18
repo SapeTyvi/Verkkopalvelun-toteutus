@@ -1,0 +1,786 @@
+[12:07:38am]-connection: true
+[12:07:38am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:16:00am]-connection: true
+[12:16:00am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:17:35am]-connection: true
+[12:17:35am]-db_quote: Pienremontit
+[12:17:35am]-connection: true
+[12:17:35am]-db_quote: Keittiöremontit
+[12:17:35am]-connection: true
+[12:17:35am]-db_quote: Helsinki
+[12:17:35am]-connection: true
+[12:17:35am]-db_quote: 05520
+[12:17:35am]-connection: true
+[12:17:35am]-db_query: INSERT INTO `jobs` (`job`,`job_subcategory`,`city`,`zipcode`,`description`) VALUES ('Pienremontit','Keittiöremontit','Helsinki','05520',"Kuvaus:  Testi teskstiä || Osoite:  Kilpitite 45|| Ajankohta:  2018-03-21|| Nimi:  Jarmo Mansikka|| Sähköposti:  riku_oksa_91@hotmail.com|| Puh:  445714664")
+[12:17:38am]-connection: true
+[12:17:38am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:17:42am]-connection: true
+[12:17:42am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:18:18am]-connection: true
+[12:18:18am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:20:45am]-connection: true
+[12:20:45am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:26:01am]-connection: true
+[12:26:01am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:28:36am]-connection: true
+[12:28:36am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:28:51am]-connection: true
+[12:28:51am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:29:23am]-connection: true
+[12:29:23am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:29:36am]-connection: true
+[12:29:36am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:30:18am]-connection: true
+[12:30:18am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:30:20am]-connection: true
+[12:30:20am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:30:45am]-connection: true
+[12:30:45am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:31:27am]-connection: true
+[12:31:27am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:32:29am]-connection: true
+[12:32:29am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:32:51am]-connection: true
+[12:32:51am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:33:23am]-connection: true
+[12:33:23am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:36:17am]-connection: true
+[12:36:17am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:36:30am]-connection: true
+[12:36:30am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:37:35am]-connection: true
+[12:37:35am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:38:43am]-connection: true
+[12:38:43am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:41:44am]-connection: true
+[12:41:44am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:44:00am]-connection: true
+[12:44:00am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:45:30am]-connection: true
+[12:45:30am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:45:54am]-connection: true
+[12:45:54am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:46:13am]-connection: true
+[12:46:13am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:46:31am]-connection: true
+[12:46:31am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:46:58am]-connection: true
+[12:46:58am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:47:40am]-connection: true
+[12:47:40am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:48:34am]-connection: true
+[12:48:34am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:57:17am]-connection: true
+[12:57:17am]-db_query: SELECT * FROM `jobs` WHERE 1
+[12:58:10am]-connection: true
+[12:58:10am]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:27:03pm]-connection: true
+[03:27:03pm]-db_quote: Vävypalvelut
+[03:27:03pm]-connection: true
+[03:27:03pm]-db_quote: Tuholaistorjunta
+[03:27:03pm]-connection: true
+[03:27:03pm]-db_quote: Turku
+[03:27:03pm]-connection: true
+[03:27:03pm]-db_quote: 04520
+[03:27:03pm]-connection: true
+[03:27:03pm]-db_query: INSERT INTO `jobs` (`job`,`job_subcategory`,`city`,`zipcode`,`description`) VALUES ('Vävypalvelut','Tuholaistorjunta','Turku','04520',"Kuvaus:  Haluun mun torakat helvettiin himast|| Osoite:  Torakkakuja 190|| Ajankohta:  2018-03-21|| Nimi:  Juuso Torakka|| Sähköposti:  juuso.torakka@gmail.com|| Puh:  0151051|| Budjetti: undefined")
+[03:28:05pm]-connection: true
+[03:28:05pm]-db_quote: Sisustus
+[03:28:05pm]-connection: true
+[03:28:05pm]-db_quote: Kalusteiden valinta
+[03:28:05pm]-connection: true
+[03:28:05pm]-db_quote: Tampere
+[03:28:05pm]-connection: true
+[03:28:05pm]-db_quote: 00100
+[03:28:05pm]-connection: true
+[03:28:05pm]-db_query: INSERT INTO `jobs` (`job`,`job_subcategory`,`city`,`zipcode`,`description`) VALUES ('Sisustus','Kalusteiden valinta','Tampere','00100',"Kuvaus:  Uusitaan koko olohuoneen kalusteet|| Osoite:  Kalustekuja 34|| Sisustettava pina-ala:  35|| Ajankohta:  2018-03-13|| Nimi:  Milla Kaluste|| Sähköposti:  milla.kaluste@gmail.com|| Puh:  01541654|| Budjetti: 1000-1500")
+[03:29:27pm]-connection: true
+[03:29:27pm]-db_quote: Siivous
+[03:29:27pm]-connection: true
+[03:29:27pm]-db_quote: Ikkunanpesu
+[03:29:27pm]-connection: true
+[03:29:27pm]-db_quote: Kouvola
+[03:29:27pm]-connection: true
+[03:29:27pm]-db_quote: 09287
+[03:29:27pm]-connection: true
+[03:29:27pm]-db_query: INSERT INTO `jobs` (`job`,`job_subcategory`,`city`,`zipcode`,`description`) VALUES ('Siivous','Ikkunanpesu','Kouvola','09287',"Kuvaus:  Mulla on keittiö ja siinä on likaiset ikkunat|| Osoite:  Ikkunakuja|| Ajankohta:  2018-03-13|| Nimi:  Markus Ikkuna|| Sähköposti:  markus.ikkuna@hotmail.com|| Puh:  165987469|| Budjetti: undefined")
+[03:30:38pm]-connection: true
+[03:30:38pm]-db_quote: Pihatyöt
+[03:30:38pm]-connection: true
+[03:30:38pm]-db_quote: Pihasuunnittelu
+[03:30:38pm]-connection: true
+[03:30:38pm]-db_quote: Kouvola
+[03:30:38pm]-connection: true
+[03:30:38pm]-db_quote: 01475
+[03:30:38pm]-connection: true
+[03:30:38pm]-db_query: INSERT INTO `jobs` (`job`,`job_subcategory`,`city`,`zipcode`,`description`) VALUES ('Pihatyöt','Pihasuunnittelu','Kouvola','01475',"Kuvaus:  Halutaan leikkikenttä meidän kotipihalle|| Osoite:  Pihatie 15|| Pihan koko:  700|| Ajankohta:  2018-03-14|| Nimi:  Juho Piha|| Sähköposti:  juho.piha@gmail.com|| Puh:  6498165749|| Budjetti: undefined")
+[03:31:56pm]-connection: true
+[03:31:56pm]-db_quote: Muutto ja pakkaus
+[03:31:56pm]-connection: true
+[03:31:56pm]-db_quote: Muutto
+[03:31:56pm]-connection: true
+[03:31:56pm]-db_quote: Tampere
+[03:31:56pm]-connection: true
+[03:31:56pm]-db_quote: 15615
+[03:31:56pm]-connection: true
+[03:31:56pm]-db_query: INSERT INTO `jobs` (`job`,`job_subcategory`,`city`,`zipcode`,`description`) VALUES ('Muutto ja pakkaus','Muutto','Tampere','15615',"Kuvaus:  Muutetaan mieheni kanssa erilleen|| Asunnon pinta-ala:  120|| Osoite mihin muutetaan:  Petoskatu 22|| Kaupunki mihin muutetaan:  Turku|| Postinumero mihin muutetaan:  00215|| Ajankohta:  2018-03-14|| Nimi:  Mira Muutto|| Sähköposti:  mira.muutto@gmail.com|| Puh:  6416816|| Budjetti: undefined")
+[03:32:01pm]-connection: true
+[03:32:01pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:38:29pm]-connection: true
+[03:38:29pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:42:41pm]-connection: true
+[03:42:41pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:45:11pm]-connection: true
+[03:45:11pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:46:09pm]-connection: true
+[03:46:09pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:48:29pm]-connection: true
+[03:48:29pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:48:58pm]-connection: true
+[03:48:58pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:50:44pm]-connection: true
+[03:50:44pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:52:47pm]-connection: true
+[03:52:47pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:55:39pm]-connection: true
+[03:55:39pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:55:54pm]-connection: true
+[03:55:54pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:56:39pm]-connection: true
+[03:56:39pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[03:58:29pm]-connection: true
+[03:58:29pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:05:21pm]-connection: true
+[04:05:21pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:06:28pm]-connection: true
+[04:06:28pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:07:31pm]-connection: true
+[04:07:31pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:09:22pm]-connection: true
+[04:09:22pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:10:01pm]-connection: true
+[04:10:01pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:10:11pm]-connection: true
+[04:10:11pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:11:27pm]-connection: true
+[04:11:27pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:12:03pm]-connection: true
+[04:12:03pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:12:42pm]-connection: true
+[04:12:42pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:13:03pm]-connection: true
+[04:13:03pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:19:16pm]-connection: true
+[04:19:16pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:19:36pm]-connection: true
+[04:19:36pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:19:49pm]-connection: true
+[04:19:49pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:20:20pm]-connection: true
+[04:20:20pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:24:47pm]-connection: true
+[04:24:47pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:25:21pm]-connection: true
+[04:25:21pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:25:42pm]-connection: true
+[04:25:42pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:26:11pm]-connection: true
+[04:26:11pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:36:17pm]-connection: true
+[04:36:17pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:46:30pm]-connection: true
+[04:46:30pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:51:00pm]-connection: true
+[04:51:00pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:52:25pm]-connection: true
+[04:52:25pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:53:01pm]-connection: true
+[04:53:01pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:53:30pm]-connection: true
+[04:53:30pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[04:56:17pm]-connection: true
+[04:56:17pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:14:24pm]-connection: true
+[05:14:24pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:19:32pm]-connection: true
+[05:19:32pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:19:54pm]-connection: true
+[05:19:54pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:20:43pm]-connection: true
+[05:20:43pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:21:48pm]-connection: true
+[05:21:48pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:22:03pm]-connection: true
+[05:22:03pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:22:43pm]-connection: true
+[05:22:43pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:23:27pm]-connection: true
+[05:23:27pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:24:02pm]-connection: true
+[05:24:02pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:25:52pm]-connection: true
+[05:25:52pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:26:54pm]-connection: true
+[05:26:54pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:27:03pm]-connection: true
+[05:27:03pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:27:12pm]-connection: true
+[05:27:12pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:39:44pm]-connection: true
+[05:39:44pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:40:16pm]-connection: true
+[05:40:17pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:41:26pm]-connection: true
+[05:41:26pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:42:39pm]-connection: true
+[05:42:39pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:43:00pm]-connection: true
+[05:43:00pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:44:27pm]-connection: true
+[05:44:27pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:44:35pm]-connection: true
+[05:44:35pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:44:46pm]-connection: true
+[05:44:46pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:44:55pm]-connection: true
+[05:44:55pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:45:20pm]-connection: true
+[05:45:20pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:45:46pm]-connection: true
+[05:45:46pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:48:30pm]-connection: true
+[05:48:30pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:48:57pm]-connection: true
+[05:48:57pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:49:54pm]-connection: true
+[05:49:54pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:50:35pm]-connection: true
+[05:50:35pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:50:54pm]-connection: true
+[05:50:54pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:51:10pm]-connection: true
+[05:51:10pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:54:05pm]-connection: true
+[05:54:05pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[05:54:05pm]-connection: true
+[05:54:05pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[05:59:45pm]-connection: true
+[05:59:45pm]-db_query: SELECT count(*) FROM `jobs` WHERE 1
+[05:59:45pm]-connection: true
+[05:59:45pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[05:59:45pm]-connection: true
+[05:59:45pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[05:59:45pm]-connection: true
+[05:59:45pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:03:02pm]-connection: true
+[06:03:02pm]-db_query: SELECT count(*) FROM `jobs` WHERE 1
+[06:03:02pm]-connection: true
+[06:03:02pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:03:02pm]-connection: true
+[06:03:02pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:03:02pm]-connection: true
+[06:03:02pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:04:36pm]-connection: true
+[06:04:36pm]-db_query: SELECT count(*) FROM `jobs` WHERE 1
+[06:04:36pm]-connection: true
+[06:04:36pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:04:36pm]-connection: true
+[06:04:36pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:04:36pm]-connection: true
+[06:04:36pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:05:15pm]-connection: true
+[06:05:15pm]-db_query: SELECT count(*) FROM `jobs` WHERE 1
+[06:05:15pm]-connection: true
+[06:05:15pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:05:15pm]-connection: true
+[06:05:15pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:05:15pm]-connection: true
+[06:05:15pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:21:31pm]-connection: true
+[06:21:31pm]-db_query: SELECT count(*) AS count FROM `jobs`
+[06:21:31pm]-connection: true
+[06:21:31pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:21:31pm]-connection: true
+[06:21:31pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:21:31pm]-connection: true
+[06:21:31pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:22:55pm]-connection: true
+[06:22:55pm]-db_query: SELECT count(*) AS count FROM `jobs`
+[06:22:55pm]-connection: true
+[06:22:55pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:22:55pm]-connection: true
+[06:22:55pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:22:55pm]-connection: true
+[06:22:55pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:24:00pm]-connection: true
+[06:24:00pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:24:00pm]-connection: true
+[06:24:00pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:24:00pm]-connection: true
+[06:24:00pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:24:22pm]-connection: true
+[06:24:22pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:24:22pm]-connection: true
+[06:24:22pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:24:22pm]-connection: true
+[06:24:22pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:25:50pm]-connection: true
+[06:25:50pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:25:50pm]-connection: true
+[06:25:50pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:25:50pm]-connection: true
+[06:25:50pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:35:13pm]-connection: true
+[06:35:13pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:35:13pm]-connection: true
+[06:35:13pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:35:13pm]-connection: true
+[06:35:13pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:37:43pm]-connection: true
+[06:37:43pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:37:43pm]-connection: true
+[06:37:43pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:37:43pm]-connection: true
+[06:37:43pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:53:52pm]-connection: true
+[06:53:52pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:53:52pm]-connection: true
+[06:53:52pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:53:52pm]-connection: true
+[06:53:52pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:55:42pm]-connection: true
+[06:55:42pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:55:42pm]-connection: true
+[06:55:42pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:55:42pm]-connection: true
+[06:55:42pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:56:04pm]-connection: true
+[06:56:04pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:56:04pm]-connection: true
+[06:56:04pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:56:04pm]-connection: true
+[06:56:04pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[06:56:52pm]-connection: true
+[06:56:52pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[06:56:52pm]-connection: true
+[06:56:52pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[06:56:52pm]-connection: true
+[06:56:52pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:03:00pm]-connection: true
+[07:03:00pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:03:00pm]-connection: true
+[07:03:00pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:03:00pm]-connection: true
+[07:03:00pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:04:10pm]-connection: true
+[07:04:10pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:04:10pm]-connection: true
+[07:04:10pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:04:10pm]-connection: true
+[07:04:10pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:04:43pm]-connection: true
+[07:04:43pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:04:43pm]-connection: true
+[07:04:43pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:04:43pm]-connection: true
+[07:04:43pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:07:11pm]-connection: true
+[07:07:11pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:07:11pm]-connection: true
+[07:07:11pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:07:11pm]-connection: true
+[07:07:11pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:09:00pm]-connection: true
+[07:09:00pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:09:00pm]-connection: true
+[07:09:00pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:09:00pm]-connection: true
+[07:09:00pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:09:25pm]-connection: true
+[07:09:25pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:09:25pm]-connection: true
+[07:09:25pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:09:25pm]-connection: true
+[07:09:25pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:09:44pm]-connection: true
+[07:09:44pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:09:44pm]-connection: true
+[07:09:44pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:09:44pm]-connection: true
+[07:09:44pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:10:51pm]-connection: true
+[07:10:51pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:10:51pm]-connection: true
+[07:10:51pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:10:51pm]-connection: true
+[07:10:51pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:12:10pm]-connection: true
+[07:12:10pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:12:10pm]-connection: true
+[07:12:10pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:12:10pm]-connection: true
+[07:12:10pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:12:40pm]-connection: true
+[07:12:40pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:12:40pm]-connection: true
+[07:12:40pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:12:40pm]-connection: true
+[07:12:40pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:12:52pm]-connection: true
+[07:12:52pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:12:52pm]-connection: true
+[07:12:52pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:12:52pm]-connection: true
+[07:12:52pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:14:15pm]-connection: true
+[07:14:15pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:14:15pm]-connection: true
+[07:14:15pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:14:15pm]-connection: true
+[07:14:15pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:14:26pm]-connection: true
+[07:14:26pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:14:26pm]-connection: true
+[07:14:26pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:14:26pm]-connection: true
+[07:14:26pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:15:08pm]-connection: true
+[07:15:08pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:15:08pm]-connection: true
+[07:15:08pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:15:08pm]-connection: true
+[07:15:08pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:17:47pm]-connection: true
+[07:17:47pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:17:47pm]-connection: true
+[07:17:47pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:17:47pm]-connection: true
+[07:17:47pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:18:04pm]-connection: true
+[07:18:04pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:18:04pm]-connection: true
+[07:18:04pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:18:04pm]-connection: true
+[07:18:04pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:18:33pm]-connection: true
+[07:18:33pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:18:33pm]-connection: true
+[07:18:33pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:18:33pm]-connection: true
+[07:18:33pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:19:13pm]-connection: true
+[07:19:13pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:19:13pm]-connection: true
+[07:19:13pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:19:13pm]-connection: true
+[07:19:13pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:19:29pm]-connection: true
+[07:19:29pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:19:29pm]-connection: true
+[07:19:29pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:19:29pm]-connection: true
+[07:19:29pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:21:27pm]-connection: true
+[07:21:27pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:21:27pm]-connection: true
+[07:21:27pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:21:27pm]-connection: true
+[07:21:27pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:21:49pm]-connection: true
+[07:21:49pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:21:49pm]-connection: true
+[07:21:49pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:21:49pm]-connection: true
+[07:21:49pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:22:14pm]-connection: true
+[07:22:14pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:22:14pm]-connection: true
+[07:22:14pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:22:14pm]-connection: true
+[07:22:14pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:24:13pm]-connection: true
+[07:24:13pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:24:13pm]-connection: true
+[07:24:13pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:24:13pm]-connection: true
+[07:24:13pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:25:55pm]-connection: true
+[07:25:55pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:25:55pm]-connection: true
+[07:25:55pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:25:55pm]-connection: true
+[07:25:55pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:28:18pm]-connection: true
+[07:28:18pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:28:18pm]-connection: true
+[07:28:18pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:28:18pm]-connection: true
+[07:28:18pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:30:40pm]-connection: true
+[07:30:40pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:30:40pm]-connection: true
+[07:30:40pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:30:40pm]-connection: true
+[07:30:40pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:31:19pm]-connection: true
+[07:31:19pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:31:19pm]-connection: true
+[07:31:19pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:31:19pm]-connection: true
+[07:31:19pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:35:04pm]-connection: true
+[07:35:04pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:35:04pm]-connection: true
+[07:35:04pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:35:04pm]-connection: true
+[07:35:04pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:37:16pm]-connection: true
+[07:37:16pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:37:16pm]-connection: true
+[07:37:16pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:37:16pm]-connection: true
+[07:37:16pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:38:11pm]-connection: true
+[07:38:11pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:38:11pm]-connection: true
+[07:38:11pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:38:11pm]-connection: true
+[07:38:11pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:38:41pm]-connection: true
+[07:38:41pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:38:41pm]-connection: true
+[07:38:41pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:38:41pm]-connection: true
+[07:38:41pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:40:33pm]-connection: true
+[07:40:33pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:40:33pm]-connection: true
+[07:40:33pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:40:33pm]-connection: true
+[07:40:33pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:42:32pm]-connection: true
+[07:42:32pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:42:32pm]-connection: true
+[07:42:32pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:42:32pm]-connection: true
+[07:42:32pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:42:39pm]-connection: true
+[07:42:39pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:42:39pm]-connection: true
+[07:42:39pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:42:39pm]-connection: true
+[07:42:39pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:42:51pm]-connection: true
+[07:42:51pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:42:51pm]-connection: true
+[07:42:51pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:42:51pm]-connection: true
+[07:42:51pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:42:59pm]-connection: true
+[07:42:59pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:42:59pm]-connection: true
+[07:42:59pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:42:59pm]-connection: true
+[07:42:59pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:43:02pm]-connection: true
+[07:43:02pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:43:02pm]-connection: true
+[07:43:02pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:43:02pm]-connection: true
+[07:43:02pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:43:17pm]-connection: true
+[07:43:17pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:43:17pm]-connection: true
+[07:43:17pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:43:17pm]-connection: true
+[07:43:17pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:45:03pm]-connection: true
+[07:45:03pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:45:03pm]-connection: true
+[07:45:03pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:45:03pm]-connection: true
+[07:45:03pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:45:09pm]-connection: true
+[07:45:09pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:45:09pm]-connection: true
+[07:45:09pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:45:09pm]-connection: true
+[07:45:09pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:45:43pm]-connection: true
+[07:45:43pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:45:43pm]-connection: true
+[07:45:43pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:45:43pm]-connection: true
+[07:45:43pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:46:18pm]-connection: true
+[07:46:18pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:46:18pm]-connection: true
+[07:46:18pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:46:18pm]-connection: true
+[07:46:18pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:47:07pm]-connection: true
+[07:47:07pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:47:07pm]-connection: true
+[07:47:07pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:47:07pm]-connection: true
+[07:47:07pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:47:11pm]-connection: true
+[07:47:11pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:47:11pm]-connection: true
+[07:47:11pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:47:11pm]-connection: true
+[07:47:11pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:47:53pm]-connection: true
+[07:47:53pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:47:53pm]-connection: true
+[07:47:53pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:47:53pm]-connection: true
+[07:47:53pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:48:49pm]-connection: true
+[07:48:49pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:48:49pm]-connection: true
+[07:48:49pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:48:49pm]-connection: true
+[07:48:49pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:55:46pm]-connection: true
+[07:55:46pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:55:46pm]-connection: true
+[07:55:46pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:55:46pm]-connection: true
+[07:55:46pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:55:56pm]-connection: true
+[07:55:56pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:55:56pm]-connection: true
+[07:55:56pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:55:56pm]-connection: true
+[07:55:56pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:56:10pm]-connection: true
+[07:56:10pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:56:10pm]-connection: true
+[07:56:10pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:56:10pm]-connection: true
+[07:56:10pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:56:55pm]-connection: true
+[07:56:55pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:56:55pm]-connection: true
+[07:56:55pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:56:55pm]-connection: true
+[07:56:55pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:57:02pm]-connection: true
+[07:57:02pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:57:02pm]-connection: true
+[07:57:02pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:57:02pm]-connection: true
+[07:57:02pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:57:12pm]-connection: true
+[07:57:12pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:57:12pm]-connection: true
+[07:57:12pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:57:12pm]-connection: true
+[07:57:12pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:58:37pm]-connection: true
+[07:58:37pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:58:37pm]-connection: true
+[07:58:37pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:58:37pm]-connection: true
+[07:58:37pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[07:59:12pm]-connection: true
+[07:59:12pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[07:59:12pm]-connection: true
+[07:59:12pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[07:59:12pm]-connection: true
+[07:59:12pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:00:28pm]-connection: true
+[08:00:28pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:00:28pm]-connection: true
+[08:00:28pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:00:28pm]-connection: true
+[08:00:28pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:00:35pm]-connection: true
+[08:00:35pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:00:35pm]-connection: true
+[08:00:35pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:00:35pm]-connection: true
+[08:00:35pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:00:52pm]-connection: true
+[08:00:52pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:00:52pm]-connection: true
+[08:00:52pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:00:52pm]-connection: true
+[08:00:52pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:01:51pm]-connection: true
+[08:01:51pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:01:51pm]-connection: true
+[08:01:51pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:01:51pm]-connection: true
+[08:01:51pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:03:25pm]-connection: true
+[08:03:25pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:03:25pm]-connection: true
+[08:03:25pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:03:25pm]-connection: true
+[08:03:25pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:03:36pm]-connection: true
+[08:03:36pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:03:36pm]-connection: true
+[08:03:36pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:03:36pm]-connection: true
+[08:03:36pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:12:24pm]-connection: true
+[08:12:24pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:12:24pm]-connection: true
+[08:12:24pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:12:24pm]-connection: true
+[08:12:24pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:13:40pm]-connection: true
+[08:13:40pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:13:40pm]-connection: true
+[08:13:40pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:13:40pm]-connection: true
+[08:13:40pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:13:57pm]-connection: true
+[08:13:57pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:13:57pm]-connection: true
+[08:13:57pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:13:57pm]-connection: true
+[08:13:57pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:14:54pm]-connection: true
+[08:14:54pm]-db_quote: Siivous
+[08:14:54pm]-connection: true
+[08:14:54pm]-db_quote: Tapahtumasiivous
+[08:14:54pm]-connection: true
+[08:14:54pm]-db_quote: Kotka
+[08:14:54pm]-connection: true
+[08:14:54pm]-db_quote: 02620
+[08:14:54pm]-connection: true
+[08:14:54pm]-db_query: INSERT INTO `jobs` (`job`,`job_subcategory`,`city`,`zipcode`,`description`) VALUES ('Siivous','Tapahtumasiivous','Kotka','02620',"Kuvaus:  Pidetään bileet ja halutaan siivojia|| Osoite:  Bilekuja 18|| Ajankohta:  2018-03-14|| Nimi:  Jarmo Mansikka|| Sähköposti:  matti.meika@gmail.com|| Puh:  0445714664|| Budjetti: undefined")
+[08:15:41pm]-connection: true
+[08:15:41pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:15:41pm]-connection: true
+[08:15:41pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:15:41pm]-connection: true
+[08:15:41pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:17:51pm]-connection: true
+[08:17:51pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:17:51pm]-connection: true
+[08:17:51pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:17:51pm]-connection: true
+[08:17:51pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[08:19:04pm]-connection: true
+[08:19:04pm]-db_query: SELECT * FROM `jobs` GROUP BY city
+[08:19:04pm]-connection: true
+[08:19:04pm]-db_query: SELECT * FROM `jobs` GROUP BY job
+[08:19:04pm]-connection: true
+[08:19:04pm]-db_query: SELECT * FROM `jobs` WHERE 1
+[10:27:26am]-connection: true
+[10:27:26am]-db_query: SELECT * FROM `jobs` GROUP BY city
+[10:27:26am]-connection: true
+[10:27:26am]-db_query: SELECT * FROM `jobs` GROUP BY job
+[10:27:26am]-connection: true
+[10:27:26am]-db_query: SELECT * FROM `jobs` WHERE 1
+[10:27:38am]-connection: true
+[10:27:38am]-db_query: SELECT * FROM `jobs` GROUP BY city
+[10:27:38am]-connection: true
+[10:27:38am]-db_query: SELECT * FROM `jobs` GROUP BY job
+[10:27:38am]-connection: true
+[10:27:38am]-db_query: SELECT * FROM `jobs` WHERE 1

@@ -1,0 +1,31 @@
+[17-Mar-2018 00:06:35 Europe/Helsinki] PHP Warning:  stripslashes() expects exactly 1 parameter, 2 given in C:\wamp64\www\Verkkopalvelun toteutus\insert.php on line 18
+[17-Mar-2018 00:06:35 Europe/Helsinki] PHP Stack trace:
+[17-Mar-2018 00:06:35 Europe/Helsinki] PHP   1. {main}() C:\wamp64\www\Verkkopalvelun toteutus\insert.php:0
+[17-Mar-2018 00:06:35 Europe/Helsinki] PHP   2. stripslashes() C:\wamp64\www\Verkkopalvelun toteutus\insert.php:18
+[17-Mar-2018 17:59:45 Europe/Helsinki] PHP Notice:  Undefined variable: result in C:\wamp64\www\Verkkopalvelun toteutus\tasks.php on line 41
+[17-Mar-2018 17:59:45 Europe/Helsinki] PHP Stack trace:
+[17-Mar-2018 17:59:45 Europe/Helsinki] PHP   1. {main}() C:\wamp64\www\Verkkopalvelun toteutus\tasks.php:0
+[17-Mar-2018 18:03:02 Europe/Helsinki] PHP Notice:  Undefined variable: rows in C:\wamp64\www\Verkkopalvelun toteutus\tasks.php on line 41
+[17-Mar-2018 18:03:02 Europe/Helsinki] PHP Stack trace:
+[17-Mar-2018 18:03:02 Europe/Helsinki] PHP   1. {main}() C:\wamp64\www\Verkkopalvelun toteutus\tasks.php:0
+[17-Mar-2018 18:03:02 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in C:\wamp64\www\Verkkopalvelun toteutus\tasks.php on line 41
+[17-Mar-2018 18:03:02 Europe/Helsinki] PHP Stack trace:
+[17-Mar-2018 18:03:02 Europe/Helsinki] PHP   1. {main}() C:\wamp64\www\Verkkopalvelun toteutus\tasks.php:0
+[17-Mar-2018 18:03:02 Europe/Helsinki] PHP   2. mysql_num_rows() C:\wamp64\www\Verkkopalvelun toteutus\tasks.php:41
+[17-Mar-2018 18:04:36 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, array given in C:\wamp64\www\Verkkopalvelun toteutus\tasks.php on line 41
+[17-Mar-2018 18:04:36 Europe/Helsinki] PHP Stack trace:
+[17-Mar-2018 18:04:36 Europe/Helsinki] PHP   1. {main}() C:\wamp64\www\Verkkopalvelun toteutus\tasks.php:0
+[17-Mar-2018 18:04:36 Europe/Helsinki] PHP   2. mysql_num_rows() C:\wamp64\www\Verkkopalvelun toteutus\tasks.php:41
+[17-Mar-2018 18:05:15 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in C:\wamp64\www\Verkkopalvelun toteutus\tasks.php on line 41
+[17-Mar-2018 18:05:15 Europe/Helsinki] PHP Stack trace:
+[17-Mar-2018 18:05:15 Europe/Helsinki] PHP   1. {main}() C:\wamp64\www\Verkkopalvelun toteutus\tasks.php:0
+[17-Mar-2018 18:05:15 Europe/Helsinki] PHP   2. mysql_num_rows() C:\wamp64\www\Verkkopalvelun toteutus\tasks.php:41
+[17-Mar-2018 18:21:31 Europe/Helsinki] PHP Notice:  Undefined variable: rows in C:\wamp64\www\Verkkopalvelun toteutus\tasks.php on line 41
+[17-Mar-2018 18:21:31 Europe/Helsinki] PHP Stack trace:
+[17-Mar-2018 18:21:31 Europe/Helsinki] PHP   1. {main}() C:\wamp64\www\Verkkopalvelun toteutus\tasks.php:0
+[17-Mar-2018 18:21:31 Europe/Helsinki] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\Verkkopalvelun toteutus\tasks.php on line 41
+[17-Mar-2018 18:21:31 Europe/Helsinki] PHP Stack trace:
+[17-Mar-2018 18:21:31 Europe/Helsinki] PHP   1. {main}() C:\wamp64\www\Verkkopalvelun toteutus\tasks.php:0
+[17-Mar-2018 18:22:55 Europe/Helsinki] PHP Notice:  Undefined variable: rows in C:\wamp64\www\Verkkopalvelun toteutus\tasks.php on line 41
+[17-Mar-2018 18:22:55 Europe/Helsinki] PHP Stack trace:
+[17-Mar-2018 18:22:55 Europe/Helsinki] PHP   1. {main}() C:\wamp64\www\Verkkopalvelun toteutus\tasks.php:0

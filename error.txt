@@ -1,0 +1,2 @@
+[13-Mar-2018 19:11:38 Europe/Helsinki] PHP Warning:  session_start(): open(/var/lib/php5/sessions/sess_4o174mtec1fvqn37ctbqefdaq7, O_RDWR) failed: Permission denied (13) in /u/h/e1501122/public_html/Verkkopalvelun toteutus/log.php on line 9
+[18-Mar-2018 10:27:38 Europe/Helsinki] PHP Warning:  session_start(): open(/var/lib/php5/sessions/sess_odu9rqamu9r66jkcqbmph00ca4, O_RDWR) failed: Permission denied (13) in /u/h/e1501122/public_html/Verkkopalvelun toteutus/log.php on line 9

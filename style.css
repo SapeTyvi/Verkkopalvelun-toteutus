@@ -1,0 +1,439 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f9fafb;    
+    color: #333;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    padding: 1em 0;
+  }
+  
+  p {
+    margin: 0;
+    padding: 1em 0;
+  }
+
+  a {
+       color: inherit;
+       text-decoration: none;
+    } 
+
+
+/*--Yleiset--*/
+.circle {
+    border: 1px solid #b1b9c3;
+    border-radius: 50%;
+}
+
+.small-image {
+    height: auto;
+    width: 175px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-div {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-top: 50px;
+    margin-left: -37px;
+    }
+
+.button {
+        display: inline-block;
+        background: #333;
+        color: #fff;
+        text-decoration: none;
+        padding: 1em 2em;
+        border: 1px solid #666;
+        border-radius: 4px;
+        margin: 0.5em 0;
+      }
+
+
+/*--Header--*/
+header{
+    min-height: 450px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-content {
+    background-image: url("img/header.jpeg");       
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    opacity: 0.7;
+  }
+
+  .nav-bar {
+      position: relative;
+      min-height: 50px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #313436;
+      background-color:  #fff;
+  }
+
+
+  .nav-bar a {
+      text-decoration: none;
+  }
+  .navbar-nav {    
+    display: none;
+    align-items: center;
+    
+  }
+
+  .navbar-nav li{
+    color:  #fff;
+    list-style-type: none;
+    padding-right: 3.2em;
+    font-size: 23px;
+
+  }
+  .navbar-nav-mobile{
+    margin-top: 30px;
+    padding: 0;
+    border-top: 1px solid black;
+  }
+  .navbar-nav-mobile li{      
+    padding: 10px 0px 10px 0px;
+    font-size: 23px;
+  }
+  .navbar-nav-mobile li {
+    color:  #313436;
+    width: 100%;
+  }
+  .navbar-nav-mobile li:hover {
+    color:  #fff;
+    background-color:  #313436;
+}
+  #nav-icon {
+    float: right;
+    padding: 9px 10px;
+    background-color: transparent;
+    border: 1px solid  #333;
+    border-radius: 4px;  
+    line-height: inherit;  
+    cursor: pointer;
+    margin-top: 4px;
+    margin-right: 15px;
+}
+#nav-icon span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #333;
+    margin-top: 4px;
+}
+
+  .button-small {
+      padding-top: 0.6em;
+      padding-bottom: 0.6em;
+      text-decoration: none;
+      font-size: 1rem;
+      -webkit-appearance: none;
+      display: inline-block;
+      text-align: center;      
+      border-radius: 4px;
+      font-size: 1.25rem;
+      font-weight: normal;
+      color: #545e69;
+      border: 1px solid #b1b9c3;
+      background-color: white;
+      outline: none;
+      cursor: pointer;
+      line-height: 1.4;
+      width: 100%;
+      max-width: 100%;
+  }
+
+.button-small:hover{
+    background-color: #545e69;
+    color: #fff;
+}
+  .button-block {
+    margin-top: 10em;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;    
+  }
+
+  .button-block ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .button-block li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+  }
+
+/*--Section A --*/
+.gallery-container {
+    border: 1px solid #b1b9c3;
+    border-radius: 4px;
+    margin: 1em;
+}
+
+
+.carousel-fullscreen .carousel-inner .item {
+    height: 100vh; 
+    min-height: 400px;
+	max-height: 600px; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/* carousel fullscreen - vertically centered caption*/
+
+.carousel-fullscreen .carousel-caption {
+    top: 85%;  
+    bottom: auto;
+    -webkit-transform: translate(0, -50%); 
+    -ms-transform: translate(0, -50%); 
+    transform: translate(0, -50%);
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+    transition: all 0.2s ease-out;
+}
+
+/*--Section B --*/
+
+
+#section-b {
+    background: #e6ecee;
+}
+.how-it-works-container{
+    text-align: center;
+}
+.how-it-works-number {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    /*margin: 15% 40% 5% 40%;    */
+}
+.text-container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*--Section C --*/
+
+.section-c-image-container {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+/*--Footer--*/
+
+footer {
+    background-color:  #b1b9c3;
+    display: block;
+    padding: 2em 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.footer-social {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-social span{
+    margin-right: 4px;
+}
+
+.footer-links {
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*--Kirjautuminen ja rekisteröityminen--*/
+
+.loginBtn {
+	background-color: #4CAF50;	
+    right: 10px;
+    float: right;
+}
+
+.signInBtn {
+	position: absolute;
+	top: 25px;
+	right: 3px;
+}
+
+.close {
+    right: 40px;
+    top: 15;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+	z-index: 999;
+}
+
+i {
+	color: black;
+	z-index: 3;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.loginFormContainer {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+.loginForm {
+	background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+.loginForm input {
+	color: black;
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.loginContainer {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.loginContainer label {
+	color: black;
+}
+
+.loginContainer button {
+	background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.loginContainer button:hover {
+	opacity: 0.8;
+}
+
+.registerContent {
+    background-image: url("img/header.jpeg");       
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.registerForm {
+	padding: 10px;
+}
+
+.registerForm label{
+	color: black;
+}
+
+/*--Media--*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 40em)) 1fr;
+    }
+    .content {
+        grid-column: 2/4;
+    }
+    /*--Navigation bar--*/
+
+
+
+    /*--Button-block--*/
+
+    .button-block {
+        min-height: 50vh;
+    }
+
+    .button-block ul {
+
+    }
+
+    .button-block ul li {
+        display: inline-block;
+        text-align: center;
+        min-width: 25%;
+        margin-left: 1em;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

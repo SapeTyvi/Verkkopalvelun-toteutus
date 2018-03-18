@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <title>Kilpaurakka!</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <nav class="nav-bar">
+				<button onclick="document.getElementById('loginFormContainer').style.display='block'" style="width:auto;" class="loginBtn">Kirjaudu</button>
+				<a href="signUp.php" class="signInBtn">Rekisteröidy</a>
+				<div class="loginFormContainer" id="loginFormContainer">
+				<form action="log.php" method="post" class="loginForm" id="loginForm">
+				
+					<div class="loginContainer">
+                            <span onclick="document.getElementById('loginFormContainer').style.display='none'" class="close" title="Close Modal"><i class="fas fa-times"></i></span>
+						<label for="uname"><b>Käyttäjänimi : </b></label>
+						<input type="text" name="username" class="box" required><br/>
+						
+						<label>Salasana : </label>
+						<input type="text" name="pwd" class="box" required><br/>
+						<button type="submit" >Kirjaudu</button> <br/>
+					</div>
+				</form>
+				</div>
+            </nav>           
+            <div class="grid">
+                <div class="button-block content">
+                    <ul>
+                        <li><a href="form.vavypalvelut.html" class="button-small">Vävypalvelut</a></li>
+                        <li><a href="form.siivous.html" class="button-small">Siivous</a></li>
+                        <li><a href="form.pihatyot.html" class="button-small">Pihatyöt</a></li>
+                        <li><a href="form.sisutus.html" class="button-small">Sisustus</a></li>
+                        <li><a href="form.pienremontit.html" class="button-small">Pienremontit</a></li>
+                        <li><a href="form.muutto_pakkaus.html" class="button-small">Muutto & pakkaus</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <!-- Section A -->
+        <section id="section-a" class="grid">
+            <div class="content">
+                <h2>Inspiroidu</h2>
+                <div class="gallery-container">
+                    <div id="my-slider" class="carousel carousel-fullscreen carousel-fade" data-interval="5000" data-ride="carousel">
+            
+                        <!-- indicators dot nov -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#my-slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#my-slider" data-slide-to="1"></li>
+                            <li data-target="#my-slider" data-slide-to="2"></li>
+                        </ol>
+                        
+                        <!-- wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active" style="background-image: url('img/remontit.jpg');">
+                              <div class="overlay"></div>
+                                <div class="carousel-caption">
+                                    <h1>Remontointi</h1>
+                                    <p>Kilpailuta remontointityöt helposti tästä</p>
+                                </div>		
+                            </div>
+                                <div class="item" style="background-image: url('img/pihatyo.jpg');">
+                              <div class="overlay"></div>
+                                      <div class="carousel-caption">
+                                    <h1>Pihatyöt</h1>
+                                    <p>Kilpailuta pihatyöt helposti tästä</p>
+                                </div>		
+                            </div>
+                            
+                            <div class="item" style="background-image: url('img/sisustus.jpeg');">
+                              <div class="overlay"></div>
+                                <div class="carousel-caption">
+                                    <h1>Sisustus</h1>
+                                    <p>Kilpailuta sisustusapu helposti tästä</p>
+                                </div>		
+                            </div>
+                        </div>
+                        
+                        <!-- controls -->
+                        <a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"> </span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                         <a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"> </span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        
+                    </div>                
+                </div>
+            </div>
+        </section>
+        <!-- Section B -->
+        <section id="section-b" class="grid">
+            <div class="content how-it-works">
+                <h2>Kuinka ..... toimii</h2>
+                <div class="how-it-works-container">
+                    <i class="fas fa-wrench fa-5x"></i>
+                    <div class="how-it-works-number circle center-div">1</div>
+                    <div class="text-container">                        
+                        <p>Valitse useista urakoista itsellesi sopiva ja kerro p�iv� ja kellonaika, jolloin toivot urakasi alkavan. Anna meille yksityiskohtia ja me kilpailutamme urakat puolestasi.</p>
+                    </div>
+                    <div class="how-it-works-number circle center-div">2</div>
+                    <div class="text-container">                        
+                        <p>Saat pian yhteydenottoja eri yrityksilt�. Ja voit valita itsellesi mieluisimman. Me varmistamme puolestasi ett� ilmoituksesi tavoittaa yritykset ja saat kilpailukykyisen hinnan urakallesi.</p>
+                    </div>
+                    <div class="how-it-works-number circle center-div">3</div>
+                    <div class="text-container">                        
+                        <p>T�m�n j�lkeen voit itse sopia urkoitsijan kanssa tarkemmista tiedoista, ja saada se takuuvarmasti kilpailutettuun hintaan.</p>
+                    </div>
+                    <div class="how-it-works-number circle center-div">4</div>
+                    <div class="text-container">                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestias, ducimus aliquid, atque, deleniti repudiandae incidunt reprehenderit modi ex reiciendis recusandae delectus voluptatibus omnis. Quasi esse animi ipsa at distinctio?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section C -->
+        <section id="section-c" class="grid">
+                <div class="content">
+                    <h2>Kokemuksia</h2>
+                    <div>
+                        <div class="section-c-image-container center">
+                            <img src="img/raija.jpeg" alt="" class="circle small-image">
+                        </div>
+                        <div class="text-container">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus excepturi accusamus esse dolore odio quaerat debitis. Excepturi, praesentium totam vero voluptatem vel assumenda. Nostrum sunt cum ipsa ipsum magnam ullam?</p>
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+        </main>
+    <footer class="">
+        <div class="content">
+            <div class="footer-social">
+                <span><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></span>
+                <span><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></span>
+                <span><a href="#"><i class="fab fa-instagram fa-2x"></i></a></span>   
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Linkki 1</a></li>
+                    <li><a href="#">Linkki 2</a></li>
+                    <li><a href="#">Linkki 3</a></li>
+                    <li><a href="#">Linkki 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
